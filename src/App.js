@@ -47,8 +47,8 @@ class App extends Component {
     } else {
       return (
         <div className="my-5">
-          <h1 class="text-6xl font-bold text-white my-2 mx-[50rem]">AnimeHub</h1>
           <div className="mx-80">
+            <h1 class="text-6xl font-bold text-white my-2 mx-auto">AnimeHub</h1>
             <SearchBox
               placeholder={"Search Anime Character"}
               handleChange={this.handleChange}
