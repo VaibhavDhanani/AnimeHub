@@ -1,7 +1,7 @@
 import React from "react";
 export const Card = (props) => (
   <div>
-    <div className="relative flex w-96 flex-col rounded-x bg-clip-border text-gray-100 shadow-md bg-slate-600">
+    <div className="relative flex w-96 flex-col rounded-x bg-clip-border text-gray-100 shadow-md bg-cyan-600">
       <div className="relative mx-4 -mt-6 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
         <img
           src={props.character.character.images.jpg.image_url}
